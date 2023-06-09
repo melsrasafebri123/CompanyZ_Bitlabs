@@ -1,33 +1,27 @@
-# CompanyW_Bitlabs
-Bitlabs provides a dataset from company W for us to use for analysis.
-- Contributors : Melsra Safebri (Me)
+# Segmentation Customer with RFM (Recency, Frequency, and Monetary) Analysis
+This is the final project of Bitlabs course. In this project, we've been made into a team then we need to make the analysis of company Z's data.
+- Contributors : Melsra Safebri (Leader,Me), Safira Yulianti Riani, Kevin Thedeus, Wina Maulidha
+
 ## 1. Case Overview
-Student diminta untuk menjawab semua kebutuhan reporting dari beberapa stakeholder bisnis Ralali. Berperan sebagai Data Analyst, student diminta untuk berinteraksi dengan database yang dimiliki produk Ralali melalui SQL Code dan ceritakan apa saja insights yang telah didapatkan.
+Student diminta untuk menjawab semua kebutuhan reporting dari beberapa stakeholder bisnis Company Z. Berperan sebagai Data Analyst, student diminta untuk berinteraksi dengan database yang dimiliki produk Company Z melalui SQL Code dan ceritakan apa saja insights yang telah didapatkan.
 ## 2. Dataset
 There are 2 datasets that i can't give you because it's forbidden by the company: 
 - bitlabs-dab.G-CID-01.companyZ_transactions_Q1_2018
 - bitlabs-dab.G-CID-01.companyZ_transactions_Q1_2019
 - bitlabs-dab.G-CID-01.companyZ_transactions_Q1_2020
 ## 3. File Description
-### a. [retentionRate.sql](https://github.com/melsrasafebri123/CompanyY_Bitlabs/blob/main/retentionRate.sql)
-Calculate our Employee Retention Rate from 2010 to 2011 by dividing the total number of active employees at the end of 2011 with the total number of employees from the beginning of 2010. Compare the number with our previous retention rate 2009 to 2010. 
-### b. [growthRate.sql](https://github.com/melsrasafebri123/CompanyY_Bitlabs/blob/main/growthRate.sql)
-Calculate our Company Growth Rate from 2010 to 2011 by dividing the total number of active employees at the end of 2011 with the total number of active employees from the end of 2010. Compare the number with our previous growth rate from 2009 to 2010.
-### c. [rewardEligible.sql](https://github.com/melsrasafebri123/CompanyY_Bitlabs/blob/main/rewardEligible.sql)
-We’re going to launch a new tenure-based reward program in 2012. Only those who stayed until the end of 2011 will be eligible for this program. Calculate the total budget that we will have to allocate for this program with details as stated below (p.s. Each employee will be categorized into based on their tenure by the time the 2011 data was recorded).
-1. Tenure group 0 - 5 years: $100 / person
-2. Tenure group 6 - 10 years: $200 / person
-3. Tenure group 11 - 15 years: $300 / person
-4. Tenure group 15 years & above: $500 / person
-### d. [ageGroup.sql](https://github.com/melsrasafebri123/CompanyY_Bitlabs/blob/main/ageGroup.sql)
-In terms of hiring, we wanted to ensure that we maintain roughly equal number of male & female active employees across age group:
-1. Below 30 years
-2. 31 - 40 years
-3. 41 - 50 years
-4. 51 - 60 years
-5. 60 years and above
-### e. [top3DeptCity.sql](https://github.com/melsrasafebri123/CompanyY_Bitlabs/blob/main/top3DeptCity.sql)
-To make an informed decision in regards to manpower planning, figure out what are the Top 3 Department & City in terms of hiring (based on number of new joiners).
+### a. [top5Category_byRevenue.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/top5Category_byRevenue.sql)
+Stakeholder ingin mengetahui Top 5 Category dengan Revenue tertinggi dari keseluruhan data yang diberikan namun harus dipastikan data tersebut non refund, sehingga dapat mengetahui category mana yang paling menguntungkan dalam periode tersebut.
+### b. [top5Category_byTrans.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/top5Category_byTrans.sql)
+Stakeholder ingin mengetahui Top 5 Category dengan total transaksi  tertinggi dari keseluruhan data yang diberikan sehingga dapat mengetahui category apa yang dominan diinginkan buyers dalam periode tersebut.
+### c. [GMV.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/GMV.sql)
+Stakeholder ingin mengetahui trend perkembangan GMV YoY Company Z pada Q1 2018, Q1 2019, dan Q1 2020 untuk 4 kategori yang ingin diprioritaskan: Agriculture & Food, Horeca, Machinery & Industrial Parts, Computer & Communication.
+### d. [SuccessOrderRate.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/SuccessOrderRate.sql)
+Stakeholder ingin mengetahui Success Order Rate tiap order dilakukan dari tahap order yang dilakukan oleh buyer sampai dengan tahap settlement yang diproses oleh internal Company Z (jika value timestamp settlement_datetime NULL, maka student dapat gunakan timestamp pada received_datetime)
+### e. [NumberOfCust.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/NumberOfCust.sql)
+Stakeholder ingin mengetahui jumlah buyer berdasarkan Bucket Size, dia membagi total buyer berdasarkan GMV dan Total Transaksi yang tercatat pada Q1 2018, Q1 2019, Q1 2020 dengan beberapa kelompok untuk melihat proporsi buyers kami seperti apa.
+### f. [PaymentComparison.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/PaymentComparison.sql)
+Stakeholder ingin melakukan kerja sama dengan fintech company untuk mempermudah users dalam bertransaksi. Student diminta untuk melakukan comparison analysis terhadap pembayaran yang dilakukan melalui Bank Transfer, TOP, atau e-Wallet.
 ## 4. Visualization
 ![Viz_CompanyY]()
 ## 5. Summary
