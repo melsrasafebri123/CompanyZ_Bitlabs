@@ -23,6 +23,6 @@ Stakeholder ingin mengetahui jumlah buyer berdasarkan Bucket Size, dia membagi t
 ### f. [PaymentComparison.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/PaymentComparison.sql)
 Stakeholder ingin melakukan kerja sama dengan fintech company untuk mempermudah users dalam bertransaksi. Student diminta untuk melakukan comparison analysis terhadap pembayaran yang dilakukan melalui Bank Transfer, TOP, atau e-Wallet.
 ## 4. Visualization
-![Viz_CompanyZ](https://github.com/melsrasafebri123/CompanyZ_Bitlabs)
+![Viz_CompanyZ](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/Viz_Company%20Z.png)
 ## 5. Summary
 # THANK YOU
