@@ -5,7 +5,7 @@ This is the final project of Bitlabs course. In this project, we've been made in
 ## 1. Case Overview
 Student diminta untuk menjawab semua kebutuhan reporting dari beberapa stakeholder bisnis Company Z. Berperan sebagai Data Analyst, student diminta untuk berinteraksi dengan database yang dimiliki produk Company Z melalui SQL Code dan ceritakan apa saja insights yang telah didapatkan.
 ## 2. Dataset
-There are 2 datasets that i can't give you because it's forbidden by the company: 
+There are 3 datasets that i can't give you because it's forbidden by the company: 
 - bitlabs-dab.G-CID-01.companyZ_transactions_Q1_2018
 - bitlabs-dab.G-CID-01.companyZ_transactions_Q1_2019
 - bitlabs-dab.G-CID-01.companyZ_transactions_Q1_2020
