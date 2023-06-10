@@ -3,26 +3,35 @@ This is the final project of Bitlabs course. In this project, we've been made in
 - Contributors : Melsra Safebri (Leader,Me), Safira Yulianti Riani, Kevin Thedeus, Wina Maulidha
 
 ## 1. Case Overview
-Student diminta untuk menjawab semua kebutuhan reporting dari beberapa stakeholder bisnis Company Z. Berperan sebagai Data Analyst, student diminta untuk berinteraksi dengan database yang dimiliki produk Company Z melalui SQL Code dan ceritakan apa saja insights yang telah didapatkan.
+Company Z wants to perform a customer segmentation analysis to find out interest, behavior and other transactions in using the company's platform. Segmentation is done by dividing customers into categories and getting insight from that
 ## 2. Dataset
-There are 3 datasets that i can't give you because it's forbidden by the company: 
+The company provides 3 datasets and is confidential 
 - bitlabs-dab.G-CID-01.companyZ_transactions_Q1_2018
 - bitlabs-dab.G-CID-01.companyZ_transactions_Q1_2019
 - bitlabs-dab.G-CID-01.companyZ_transactions_Q1_2020
 ## 3. File Description
 ### a. [top5Category_byRevenue.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/top5Category_byRevenue.sql)
-Stakeholder ingin mengetahui Top 5 Category dengan Revenue tertinggi dari keseluruhan data yang diberikan namun harus dipastikan data tersebut non refund, sehingga dapat mengetahui category mana yang paling menguntungkan dalam periode tersebut.
+Looking for the Top 5 Categories with the highest Revenue without data refund
 ### b. [top5Category_byTrans.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/top5Category_byTrans.sql)
-Stakeholder ingin mengetahui Top 5 Category dengan total transaksi  tertinggi dari keseluruhan data yang diberikan sehingga dapat mengetahui category apa yang dominan diinginkan buyers dalam periode tersebut.
+Looking for the Top 5 Category with the highest total transactions
 ### c. [GMV.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/GMV.sql)
-Stakeholder ingin mengetahui trend perkembangan GMV YoY Company Z pada Q1 2018, Q1 2019, dan Q1 2020 untuk 4 kategori yang ingin diprioritaskan: Agriculture & Food, Horeca, Machinery & Industrial Parts, Computer & Communication.
+Calculating the development of GMV from 2018 to 2020, especially in 4 categories: Agriculture & Food, Horeca, Machinery & Industrial Parts, Computer & Communication.
 ### d. [SuccessOrderRate.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/SuccessOrderRate.sql)
-Stakeholder ingin mengetahui Success Order Rate tiap order dilakukan dari tahap order yang dilakukan oleh buyer sampai dengan tahap settlement yang diproses oleh internal Company Z (jika value timestamp settlement_datetime NULL, maka student dapat gunakan timestamp pada received_datetime)
+Calculating the Success Order Rate for each order made from the order stage to the stage of completing the purchase
 ### e. [NumberOfCust.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/NumberOfCust.sql)
-Stakeholder ingin mengetahui jumlah buyer berdasarkan Bucket Size, dia membagi total buyer berdasarkan GMV dan Total Transaksi yang tercatat pada Q1 2018, Q1 2019, Q1 2020 dengan beberapa kelompok untuk melihat proporsi buyers kami seperti apa.
+Calculating the number of buyers based on Bucket Size, which divides the total buyers based on GMV and Total Transactions recorded in 2018 until 2020 by several groups.
 ### f. [PaymentComparison.sql](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/PaymentComparison.sql)
-Stakeholder ingin melakukan kerja sama dengan fintech company untuk mempermudah users dalam bertransaksi. Student diminta untuk melakukan comparison analysis terhadap pembayaran yang dilakukan melalui Bank Transfer, TOP, atau e-Wallet.
+Calculating comparative analysis on payment systems made by bank transfer, TOP, or e-Wallet
+### g. [CleansingData.ipynb](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/CleansingData.ipynb)
+Calculating comparative analysis on payment systems made by bank transfer, TOP, or e-Wallet
+### h. [BPMN.png](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/BPMN.png)
+Calculating comparative analysis on payment systems made by bank transfer, TOP, or e-Wallet
+### i. [Product Canvas.png](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/Product%20Canvas.png)
+Calculating comparative analysis on payment systems made by bank transfer, TOP, or e-Wallet
+### j. [Data Presentation.pptx](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/Data%20Presentation.pptx)
+Calculating comparative analysis on payment systems made by bank transfer, TOP, or e-Wallet
 ## 4. Visualization
-![Viz_CompanyZ](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/Viz_Company%20Z.png)
+To protect the confidentiality of company data, I need to censor some data
+![Viz_CompanyZ](https://github.com/melsrasafebri123/CompanyZ_Bitlabs/blob/main/Viz_Company%20Z.jpeg)
 ## 5. Summary
 # THANK YOU
