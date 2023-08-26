@@ -1,4 +1,4 @@
-# Segmentation Customer with RFM (Recency, Frequency, and Monetary) Analysis
+# Demand Trend Analysis and Transaction Conversion Rate for Providing Better Customer Satisfication
 This is the final project of Bitlabs course. In this project, we've been made into a team then we need to make the analysis of company Z's data.
 - Contributors : Melsra Safebri (Leader,Me), Safira Yulianti Riani, Kevin Thedeus, Wina Maulidha
 
